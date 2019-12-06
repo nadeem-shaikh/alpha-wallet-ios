@@ -30,9 +30,10 @@ class WhereIsWalletAddressFoundOverlayView: UIView {
 
         NSLayoutConstraint.activate([
             blurView.anchorsConstraint(to: self),
-
-            dialog.rightAnchor.constraint(equalTo: rightAnchor, constant: -20),
-            dialog.bottomAnchor.constraint(equalTo: bottomAnchor, constant: -120),
+            dialog.centerXAnchor.constraint(equalTo: centerXAnchor, constant: 1.0),
+            dialog.centerYAnchor.constraint(equalTo: centerYAnchor, constant: 1.0),
+           // dialog.rightAnchor.constraint(equalTo: rightAnchor, constant: -20),
+           // dialog.bottomAnchor.constraint(equalTo: bottomAnchor, constant: -120),
         ])
     }
 
